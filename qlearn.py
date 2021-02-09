@@ -76,5 +76,5 @@ env = gym.make('dpp-v3')
 agent_pos, goal_pos = env.reset()
 
 # (environment, learning, discount, epsilon, min episodes, max episodes, render interval) 
-QLearning(env, 0.8, 0.9, 0.8, 0, 10000, 2500)
+QLearning(env, 0.8, 0.9, 0.8, 0, 10000, 1000)
 
